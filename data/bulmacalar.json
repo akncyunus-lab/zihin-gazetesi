@@ -3,30 +3,31 @@
     "kare": {
       "baslik": "5 Eylül 2026 Kare Bulmaca",
       "boyut": 5,
-      "yatay": [
-        {
-          "numara": 1,
-          "soru": "Gökyüzünde geceleri görünen ışıklı cisim",
-          "cevap": "AY"
-        },
-        {
-          "numara": 2,
-          "soru": "Suya düşen yağmur tanesi",
-          "cevap": "DAMLA"
-        }
+      "hucreler": [
+        ["K", "A", "L", "E", "M"],
+        ["#", "#", "İ", "#", "#"],
+        ["#", "#", "M", "#", "#"],
+        ["#", "#", "O", "#", "#"],
+        ["#", "#", "N", "#", "#"]
       ],
-      "dikey": [
-        {
-          "numara": 1,
-          "soru": "Güneş sistemindeki gezegenlerden biri",
-          "cevap": "DUNYA"
-        },
-        {
-          "numara": 2,
-          "soru": "Kitap okunan yer",
-          "cevap": "KUTUPHANE"
-        }
-      ]
+      "sorular": {
+        "yatay": [
+          {
+            "numara": 1,
+            "baslangic": [0, 0],
+            "cevap": "KALEM",
+            "soru": "Yazı yazmaya yarayan araç."
+          }
+        ],
+        "dikey": [
+          {
+            "numara": 2,
+            "baslangic": [0, 2],
+            "cevap": "LİMON",
+            "soru": "Sarı renkli, ekşi bir meyve."
+          }
+        ]
+      }
     }
   }
 }
