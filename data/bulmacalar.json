@@ -1,1 +1,74 @@
-
+{
+  "2026-09-05": {
+    "kare": {
+      "baslik": "5 Eylül 2026 Kare Bulmaca",
+      "boyut": 9,
+      "sorular": {
+        "yatay": [
+          {
+            "numara": 1,
+            "yon": "yatay",
+            "baslangic": [
+              2,
+              2
+            ],
+            "cevap": "SAKAL",
+            "soru": "Yüzün alt kısmında çıkan kıllar bütünü."
+          },
+          {
+            "numara": 2,
+            "yon": "yatay",
+            "baslangic": [
+              3,
+              3
+            ],
+            "cevap": "KİLİT",
+            "soru": "Kapıyı kapalı tutmaya yarayan mekanizma."
+          },
+          {
+            "numara": 3,
+            "yon": "yatay",
+            "baslangic": [
+              4,
+              3
+            ],
+            "cevap": "ATA",
+            "soru": "Babanın babası."
+          },
+          {
+            "numara": 4,
+            "yon": "yatay",
+            "baslangic": [
+              5,
+              3
+            ],
+            "cevap": "MASA",
+            "soru": "Üzerinde yemek yenilen veya çalışılan eşya."
+          },
+          {
+            "numara": 5,
+            "yon": "yatay",
+            "baslangic": [
+              6,
+              2
+            ],
+            "cevap": "KAPI",
+            "soru": "Bir yere giriş çıkışı sağlayan açılır bölüm."
+          }
+        ],
+        "dikey": [
+          {
+            "numara": 6,
+            "yon": "dikey",
+            "baslangic": [
+              2,
+              4
+            ],
+            "cevap": "KİTAP",
+            "soru": "Okumak için basılı sayfalardan oluşan eser."
+          }
+        ]
+      }
+    }
+  }
+}
