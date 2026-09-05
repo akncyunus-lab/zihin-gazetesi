@@ -1,1 +1,54 @@
-
+{
+  "2026-09-05": {
+    "kare": {
+      "baslik": "5 Eylül 2026 Kare Bulmaca",
+      "boyut": 7,
+      "sorular": {
+        "yatay": [
+          {
+            "numara": 1,
+            "yon": "yatay",
+            "baslangic": [
+              1,
+              1
+            ],
+            "cevap": "KALEM",
+            "soru": "Yazı yazmaya yarayan araç."
+          },
+          {
+            "numara": 3,
+            "yon": "yatay",
+            "baslangic": [
+              3,
+              1
+            ],
+            "cevap": "KORNA",
+            "soru": "Ses çıkarmak için kullanılan araç."
+          },
+          {
+            "numara": 4,
+            "yon": "yatay",
+            "baslangic": [
+              5,
+              3
+            ],
+            "cevap": "NANE",
+            "soru": "Hoş kokulu, yeşil renkli bir bitki."
+          }
+        ],
+        "dikey": [
+          {
+            "numara": 2,
+            "yon": "dikey",
+            "baslangic": [
+              1,
+              3
+            ],
+            "cevap": "LİMON",
+            "soru": "Sarı renkli, ekşi bir meyve."
+          }
+        ]
+      }
+    }
+  }
+}
