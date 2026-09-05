@@ -1,1 +1,64 @@
+<!DOCTYPE html><html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zihin Gazetesi</title>
+</head><body>  <header>
+    <h1>📰 ZİHİN GAZETESİ</h1>
+    <p>Her gün yeni bir bulmaca.</p>
+  </header>  <main><section>
+  <h2>📅 Bugünün Bulmacaları</h2>
+  <p id="today"></p>
+</section>
 
+<section>
+
+  <button onclick="openPuzzle('kare')">
+    🧩 Kare Bulmaca
+  </button>
+
+  <button onclick="openPuzzle('sudoku')">
+    🔢 Sudoku
+  </button>
+
+  <button onclick="openPuzzle('kelime')">
+    🔤 Kelime Avı
+  </button>
+
+  <button onclick="openPuzzle('genel')">
+    ❓ Genel Kültür
+  </button>
+
+  <button onclick="openPuzzle('zeka')">
+    🧠 Zeka Sorusu
+  </button>
+
+</section>
+
+<section>
+  <h2>📚 Geçmiş Bulmacalar</h2>
+  <p>Geçmiş günlerin bulmacaları burada yer alacak.</p>
+</section>
+
+  </main>  <script>
+    function showDate() {
+      const today = new Date();
+
+      const options = {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+        weekday: "long"
+      };
+
+      document.getElementById("today").textContent =
+        today.toLocaleDateString("tr-TR", options);
+    }
+
+    function openPuzzle(type) {
+      alert("Bu bulmaca yakında oynanabilir olacak! 🧩");
+    }
+
+    showDate();
+  </script></body>
+</html>
