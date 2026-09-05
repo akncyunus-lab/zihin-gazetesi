@@ -1,8 +1,7 @@
 <!DOCTYPE html><html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zihin Gazetesi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Zihin Gazetesi</title>  <link rel="stylesheet" href="style.css">
 </head><body>  <header>
     <h1>📰 ZİHİN GAZETESİ</h1>
     <p>Her gün yeni bir bulmaca.</p>
@@ -40,25 +39,5 @@
   <p>Geçmiş günlerin bulmacaları burada yer alacak.</p>
 </section>
 
-  </main>  <script>
-    function showDate() {
-      const today = new Date();
-
-      const options = {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-        weekday: "long"
-      };
-
-      document.getElementById("today").textContent =
-        today.toLocaleDateString("tr-TR", options);
-    }
-
-    function openPuzzle(type) {
-      alert("Bu bulmaca yakında oynanabilir olacak! 🧩");
-    }
-
-    showDate();
-  </script></body>
+  </main>  <script src="app.js"></script></body>
 </html>
